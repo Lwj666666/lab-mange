@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/example03/users
+Content-Type: application/json
+
+{
+  "name": "3",
+  "age": 19,
+  "email": "ass"
+}
+
+### 请求地址参数类型转换异常
+GET http://localhost:8080/api/example03/users/aaa/file
+
+### 请求地址参数校验
+GET http://localhost:8080/api/example03/users/s
+
+###
